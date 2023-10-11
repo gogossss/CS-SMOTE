@@ -1,5 +1,3 @@
-# 自学PYTHON
-# 开发时间 2023/3/16 9:00
 import sklearn
 import smote_variants as sv
 from gsmote import GeometricSMOTE
@@ -17,11 +15,8 @@ import matplotlib.pyplot as plt
 from sklearn.decomposition import PCA
 from sklearn.neighbors import KNeighborsClassifier
 from numpy import where
-import numpy as np
-import pandas as pd
 from sklearn.ensemble import GradientBoostingClassifier
 from imblearn.over_sampling import SMOTE, BorderlineSMOTE, ADASYN
-from matplotlib import pyplot as plt
 from sklearn import tree
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder
@@ -30,20 +25,6 @@ from sklearn.metrics import accuracy_score as Accuracy
 from sklearn.metrics import precision_score as Precision
 from sklearn.metrics import recall_score as Recall
 from sklearn.metrics import f1_score as F1_measure
-from sklearn.metrics import roc_curve
-from sklearn.metrics import roc_auc_score as AUC
-from sklearn.svm import SVC
-import pandas as pd
-from matplotlib import pyplot as plt
-from sklearn import tree
-from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import LabelEncoder
-from sklearn.metrics import confusion_matrix as CM
-from sklearn.metrics import accuracy_score as Accuracy
-from sklearn.metrics import precision_score as Precision
-from sklearn.metrics import recall_score as Recall
-from sklearn.metrics import f1_score as F1_measure
-from sklearn.metrics import roc_auc_score
 from sklearn.metrics import roc_curve
 from sklearn.metrics import roc_auc_score as AUC
 from sklearn.svm import SVC
@@ -55,7 +36,6 @@ from sklearn.ensemble import AdaBoostClassifier
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.neural_network import MLPClassifier
-import numpy as np
 import matplotlib.pyplot as plt
 from itertools import cycle
 from sklearn import svm, datasets
